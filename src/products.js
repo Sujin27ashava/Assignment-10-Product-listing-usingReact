@@ -6,7 +6,7 @@ const products=[
         price: 120000,
         category:"Apple iPhone",
         rating:4.4,
-        image:"/images/iPhone16.jpg",
+        image:`${import.meta.env.BASE_URL}images/iPhone15.jbg`,
     },
     {
         id:2,
@@ -14,7 +14,7 @@ const products=[
         price: 90000,
         category:"Apple iPhone",
         rating:4.5,
-        image:"/images/iPhone15.jpg",
+        image:`${import.meta.env.BASE_URL}images/iPhone15.jpg`,
     },
     {
         id:3,
@@ -22,7 +22,7 @@ const products=[
         price: 124900,
         category:"Apple iPhone",
         rating:4.9,
-        image:"/images/iPhone17.webp",
+        image:`${import.meta.env.BASE_URL}images/iPhone17.webp`,
     },
     {
         id:4,
@@ -30,7 +30,7 @@ const products=[
         price: 84999,
         category:"Oppo",
         rating:4.3,
-        image:"/images/FindX9s.webp",
+        image:`${import.meta.env.BASE_URL}images/FindX9s.webp`,
     }, 
     {
         id:5,
@@ -38,7 +38,7 @@ const products=[
         price: 72999,
         category:"Oppo",
         rating:4.6,
-        image:"/images/Reno16.webp",
+        image:`${import.meta.env.BASE_URL}images/Reno16.webp`,
     }, 
     {
         id:6,
@@ -46,7 +46,7 @@ const products=[
         price: 199999,
         category:"Oppo",
         rating:4.9,
-        image:"/images/FindX10.webp",
+        image:`${import.meta.env.BASE_URL}images/FindX10.webp`,
     },
     {
         id:7,
@@ -54,7 +54,7 @@ const products=[
         price: 219999,
         category:"Vivo",
         rating:4.9,
-        image:"/images/XFold6.webp",
+        image:`${import.meta.env.BASE_URL}images/XFold6.webp`,
     }, 
     {
         id:8,
@@ -62,7 +62,7 @@ const products=[
         price: 159999,
         category:"Vivo",
         rating:4.3,
-        image:"/images/X300ultra.webp",
+        image:`${import.meta.env.BASE_URL}images/X300ultra.webp`,
     }, 
     {
         id:9,
@@ -70,7 +70,7 @@ const products=[
         price:119999,
         category:"Vivo",
         rating:4.3,
-        image:"/images/X300pro.webp",
+        image:`${import.meta.env.BASE_URL}images/X300pro.webp`,
     },
     {
         id:10,
@@ -78,7 +78,7 @@ const products=[
         price: 69999,
         category:"Vivo",
         rating:4.0,
-        image:"/images/V80.webp",
+        image:`${import.meta.env.BASE_URL}images/V80.webp`,
     },
 ];
 export default products;
