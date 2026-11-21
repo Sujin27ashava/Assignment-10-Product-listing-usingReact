@@ -6,7 +6,7 @@ const products=[
         price: 120000,
         category:"Apple iPhone",
         rating:4.4,
-        image:`${import.meta.env.BASE_URL}images/iPhone15.jbg`,
+        image:`${import.meta.env.BASE_URL}images/iPhone16.jpg`,
     },
     {
         id:2,
